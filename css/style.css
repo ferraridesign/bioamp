@@ -66,6 +66,7 @@ table {
 #about .about-img {
     overflow: hidden;
 }
+.image-container{text-align:center}
 .clients-section {
     background: #e6e6e6;
     padding: 100px 0 80px;
@@ -111,9 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+/*  background: url(../img/banner.jpeg) no-repeat;
   background-size: cover;
-  min-height: 564px;
+  min-height: 564px;*/
+  background: url(https://bioampdx.com/wp-content/uploads/2018/09/arctic-unsplash-e1535924579419.jpg) no-repeat;
+
+background-size: cover;
+min-height: 562px;
 }
 
 .bg-color {
@@ -232,7 +237,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-submit:hover {
-  background: #fff;
+/*  background: #fff;*/
+  background: #545151;
 }
 
 /****/
@@ -513,7 +519,7 @@ a, a:hover {
 }
 
 .footer-social a {
-  font-size: 18px;
+  font-size: 25px;
   color: #666;
 }
 
