@@ -46,7 +46,7 @@ jQuery(document).ready(function( $ ) {
       $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
- 
+
 
   // Smoth scroll on page hash links
   $('a[href*="#"]:not([href="#"])').on('click', function() {
