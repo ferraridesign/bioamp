@@ -18,7 +18,19 @@ blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none;
 }
-
+.back-to-top {
+    position: fixed;
+    display: none;
+    /* background: rgba(0, 0, 0, 0.2); */
+    background: #696969;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -43,6 +55,7 @@ table {
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
+    text-align: center;
 }
 .section {
     position: relative;
