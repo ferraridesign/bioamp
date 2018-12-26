@@ -217,14 +217,15 @@ min-height: 562px;
 }
 
 .title {
-  font-size: 99px;
+      font-size: 1.5em;
+  /*font-size: 99px;*/
   font-weight: 700;
   color: #fff;
   line-height: 88px;
   letter-spacing: 0px;
   opacity: 1;
   text-transform: uppercase;
-  padding: 25px 0px;
+  /*padding: 25px 0px;*/
 }
 
 .btn-submit {
