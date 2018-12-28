@@ -8,6 +8,8 @@ body {
 
 ol, ul {
   list-style: none;
+      font-size: 1.2em;
+          padding-top: 0.4em;
 }
 
 blockquote, q {
@@ -44,11 +46,12 @@ table {
   padding: 60px 0px;
 }
 .section-title {
-    font-size: 32px;
+        font-size:2.2em;
     color: #111;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
+    padding-top: 2em;
 }
 #services .service-title {
     margin-left: 80px;
@@ -70,9 +73,9 @@ table {
     margin-bottom: 20px;
 }
 .section-title-divider {
-    width: 50px;
+    width: 100px;
     height: 3px;
-    background: #03C4EB;
+    background: #9dafb3;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -229,7 +232,7 @@ min-height: 562px;
 }
 
 .btn-submit {
-  background: black;
+  background: #ddd;;
   border: 0px;
   display: inline-block;
   font-size: 16px;
@@ -247,7 +250,8 @@ min-height: 562px;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin-top: 25px;
-  border: 2px solid #FFD34E;
+
+    border: 2px solid #72959a;
 }
 
 .btn-submit:hover {
@@ -309,6 +313,7 @@ min-height: 562px;
 
 p {
   color: #888;
+      font-size: 1.5em;
 }
 
 .icon {
@@ -472,11 +477,11 @@ h3.txt-tl {
 }
 
 a, a:hover {
-  color: #FFD34E;
+ color: #020202;;
 }
 
 .cont-title {
-  font-size: 24px;
+  font-size: 20px;;
   padding: 15px 0px;
 }
 
